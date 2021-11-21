@@ -140,4 +140,7 @@ hr {
   .avatar-text {
     font-size: 16px;
   }
+  .eye-overlay {
+    padding: 115px 117px;
+  }
 }
