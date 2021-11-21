@@ -114,3 +114,30 @@ hr {
   text-decoration: none;
   color: rgb(114, 136, 156);
 }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 75%;
+    margin-top: 60px;
+    font-size: 17px;
+  }
+  .heading {
+    margin-top: 15px;
+  }
+  .details {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  hr {
+    margin-top: 13px;
+  }
+  .avatar-image {
+    border: 1px solid white;
+    border-radius: 50%;
+    max-width: 11%;
+  }
+  .avatar-text {
+    font-size: 16px;
+  }
+}
