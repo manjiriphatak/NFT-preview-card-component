@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: White;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  line-height: 1.5;
+  font-weight: 300;
+}
+hr {
+  margin-top: 25px;
+  border-color: hsla(215, 52%, 70%, 0.356);
+  border-bottom: none;
+  border-width: thin;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 300px;
+  margin: 150px auto;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+  position: relative;
+}
+.equilibrium-image {
+  margin: auto;
+  border-radius: 8px;
+  max-width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.equilibrium-image:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+.heading {
+  font-size: 22px;
+  margin-top: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.heading:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.details {
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+.eth-image {
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+.clock {
+  position: absolute;
+  right: 25px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+.clock-image {
+  margin-right: 8px;
+  position: relative;
+  top: 2px;
+}
+.avatar {
+  margin-top: 20px;
+}
+.avatar-image {
+  max-width: 12%;
+  margin-right: 15px;
+}
+.avatar-text {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  bottom: 13px;
+}
+.name {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
