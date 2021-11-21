@@ -26,6 +26,9 @@ hr {
   text-align: left;
   position: relative;
 }
+.images {
+  position: relative;
+}
 .equilibrium-image {
   margin: auto;
   border-radius: 8px;
@@ -35,6 +38,21 @@ hr {
 .equilibrium-image:hover {
   cursor: pointer;
 }
+.eye-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  padding: 124px 126px;
+  border-radius: 8px;
+  background-color: hsla(178, 100%, 50%, 0.336);
+  transition: all 0.2s ease-in-out;
+}
+.eye-overlay:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
 .heading {
   font-size: 22px;
   margin-top: 25px;
