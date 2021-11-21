@@ -89,6 +89,10 @@ hr {
   cursor: pointer;
 }
 .attribution {
-  color: hsl(215, 51%, 70%);
+  color: hsla(215, 52%, 70%, 0.397);
   font-size: 12px;
+}
+.attribution a {
+  text-decoration: none;
+  color: rgb(114, 136, 156);
 }
